@@ -1,0 +1,320 @@
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+      float: left;
+      overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+      font-size: 17px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown-content a {
+      float: none;
+      background-color: #333;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: dodgerblue;
+      color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+.body{
+    background-image: url(images/Alphard.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin: 0;
+    font-family:Arial;
+}
+
+.paragraph{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-40%,-60%);
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+}
+.car{
+    color:dodgerblue;
+}
+
+.par2{
+    position: absolute;
+    margin-top: 10px;
+    top: 57%;
+    left: 47%;
+    transform: translate(-40%,-60%);
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    background-color:dodgerblue;
+}
+
+.book{
+    position: absolute;
+    margin-top: 20px;
+    top:70%;
+    left: 49%;
+    border-color:white;
+    width:150px;
+    height:40px;
+    transform: translate(-40%,-60%);
+    font-size:18px;
+    font-weight:bold;
+    background-color:dodgerblue;
+}
+.book a{
+    color:white;
+}
+.footer-main{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background: white;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 0;
+}
+
+.social-icon{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.social-icon ul{
+ margin: 20px;
+ padding: 0px;
+ text-align: center;
+}
+
+.social-icon ul li{
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.subscription{
+    overflow: hidden;
+    border: 2px solid black;
+    width: 500px;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.subscribe{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.subs2{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.subs2 input{
+    border: 0;
+    width: 200px;
+    border-bottom: 1px solid black;
+    color: grey;
+    text-align: center;
+}
+
+.subs{
+    margin-top: 10px;
+    border: none;
+    background-color: dodgerblue;
+    width: 100px;
+    font-weight: bold;
+    height: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background:dodgerblue;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-bottom{
+    font-family: inherit;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+
+.car{  text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.par {margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.mobil1{
+    width: 180px;
+    height: 300px;
+    display:inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.mobil2{
+    width: 180px;
+    height: 300px;
+    display:inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.mobil3{
+    width: 180px;
+    height: 300px;
+    display:inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.mobil4{
+    width: 180px;
+    height: 300px;
+    display:inline-block;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,83 @@
+<html>
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+
+  </header>
+    </head>
+    <body>
+        <header class="navbar fixed-header">
+            <div class="navbar-logo">
+                <img src="images/logo1.gif">
+            </div>
+            <ul class="navbar-right">
+                <li style><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+          </header>
+          <nav>
+                <div class="topnav" id="myTopnav">
+                        <a href="navigation.html" class="active">Home</a>
+                        <div class="dropdown">
+                          <button class="dropbtn">Product 
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                            <a href="product.html">Family Car</a>
+                            <a href="#">Commercial Car</a>
+                            <a href="#">Luxury Car</a>
+                          </div>
+                        </div> 
+                        <a href="contact.html">Contact</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                      </div>
+                      <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            </script>
+                    </nav>
+                    <div class="body">
+                        <div class="paragraph">WELCOME TO <label class="car">CAR</label>OLINE RENTALS</div>
+                        <div class="par2">A place where you can rent a comfty car</div>
+                       <button class="book"><a href="product.html">Start Book</a></button>
+                             </div>
+               
+</body>
+<footer>
+    <div class="footer-main">
+        <div class="social-icon">
+            <ul>
+              <li><a href="" target="blank"></a><img src="images/instagram.png"></a></li>
+              <li><a href="" target="blank"><img src="images/youtube.png"></a></li>
+              <li><a href="" target="blank"><img src="images/twitter.png"></a></li>
+              <li><a href="" target="blank"><img src="images/facebook.png"></a></li>
+              <li>
+                  <div class="subscription">
+                      <div class="subscribe">
+                        Subscribe Our Newsletter
+                        <div class="subs2">
+                          <input type="email" name="email" id="username" value="Your Email">
+                        </div>
+                        <button class="subs">Subscribe</button>
+                      </div>
+              </li>
+            </ul>
+            
+          </div>
+
+      </div>
+     </div>
+     <div class="footer-bottom">
+          <p>&copy;Copyright 2018 by Wilson Adrilia</p>
+        </div>
+
+
+</footer>
+    
+</html>
